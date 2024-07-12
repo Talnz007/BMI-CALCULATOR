@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BMI-CALCULATOR">
+    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <root id="archive" name="BMI-CALCULATOR.jar">
+      <element id="module-output" name="BMI-CALCULATOR.main" />
+    </root>
+  </artifact>
+</component>
