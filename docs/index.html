@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>BMI Calculator</h1>
+    </header>
+    <main>
+        <div class="unit-choice">
+            <label for="unitChoice">Choose Units:</label>
+            <select id="unitChoice">
+                <option value="Metric">Metric</option>
+                <option value="Imperial">Imperial</option>
+            </select>
+        </div>
+        <div id="metricInputs" class="input-group">
+            <label for="weightInputMetric">Weight (kg):</label>
+            <input type="number" id="weightInputMetric">
+            <label for="heightInputMetric">Height (cm):</label>
+            <input type="number" id="heightInputMetric">
+        </div>
+        <div id="imperialInputs" class="input-group">
+            <label for="weightInputImperial">Weight (lb):</label>
+            <input type="number" id="weightInputImperial">
+            <label for="heightInputFeet">Height (feet):</label>
+            <input type="number" id="heightInputFeet">
+            <label for="heightInputInches">Height (inches):</label>
+            <input type="number" id="heightInputInches">
+        </div>
+        <button id="calculateButton">Calculate BMI</button>
+        <div id="resultLabel" class="result"></div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Fitness App</p>
+    </footer>
+</div>
+<script src="bmi-calculator.js"></script>
+</body>
+</html>
