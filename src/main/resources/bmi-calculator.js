@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const calculateButton = document.getElementById("calculateButton");
     const resultLabel = document.getElementById("resultLabel");
 
-    const EDAMAM_APP_ID = '773ade91';
-    const EDAMAM_APP_KEY = '2ae4b85354799148ab3b5153a6c71c1d';
-    const SPOONACULAR_API_KEY = '9627afef187c4f7a94ca2a826896f895 ';
+    const EDAMAM_APP_ID = 'EDAMAM_APP_ID';
+    const EDAMAM_APP_KEY = 'EDAMAM_APP_KEY';
+    const SPOONACULAR_API_KEY = 'SPOONACULAR_API_KEY ';
 
     unitChoice.addEventListener("change", function () {
         if (unitChoice.value === "Metric") {
